@@ -134,6 +134,7 @@ body {
     box-shadow: 0 10px 30px rgba(0,0,0,0.08);
     text-align: center;
     transition: translateY 0.3s ease;
+    flex:grid;
 }
 
 .card:hover {
@@ -149,6 +150,33 @@ body {
     margin-top: 50px;
 }
 
+.product-container {
+    background:#fff;
+    border-radius:12px;
+    box-shadow: 0 4px 12px rgba (0,0,0.1);
+    overflow:hidden;
+    text-align:center;
+    transition:transform 0.3s ease;
+    display:flex;
+    gap:50px;
+}
+
+
+
+product-card{
+    margin:10px;
+    padding:20px;
+    font-size:30px;
+    gap: 50px;
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+}
+
+.product-card img:hover {
+    transform: scale(1.1);
+}
 /* 7. MEDIA QUERIES (The Responsive Magic) */
 
 /* Tablet & Smaller Screens */
