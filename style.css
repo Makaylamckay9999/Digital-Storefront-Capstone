@@ -105,6 +105,11 @@ body {
     max-width: var(--container-width);
     margin:50px;
     padding: 40px 0;
+    gap:50px;
+}
+
+.feature-image {
+    margin margin-left:;
 }
 
 
