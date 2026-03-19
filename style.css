@@ -5,7 +5,7 @@
     --accent-color: #e6bdb9;     /* Buttons & Highlights */
     --bg-light: #e9d7d7;         /* Page Background */
     --card-bg: #ffffff;          /* Card Background */
-    --text-main: #333333;        /* General Text */
+    --text-main: #000000;        /* General Text */
     --text-light: #000000;       /* Text on Dark Backgrounds */
     --container-width: 1100px;
 }
@@ -103,9 +103,11 @@ body {
     flex: 1;
     width: 90%;
     max-width: var(--container-width);
-    margin: 0 auto;
+    margin:50px;
     padding: 40px 0;
 }
+
+
 
 .about-heading {
     margin-top
