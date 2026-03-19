@@ -61,8 +61,8 @@ body {
 
 /* 4. Hero Section */
 .hero {
-    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
-    background-size: cover;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6));, 
+    background-size:cover;
     background-position: center;
     height: 60vh;
     display: flex;
@@ -106,6 +106,12 @@ body {
     margin: 0 auto;
     padding: 40px 0;
 }
+
+.about-heading {
+    margin-top
+    gap:50px;
+}
+/*remove overlap of container over menu button*/
 
 .card-grid {
     display: grid;
