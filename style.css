@@ -3,7 +3,7 @@
 :root {
     --primary-color:#d81e5b;    /* Navbar & Footer */
     --accent-color: #e6bdb9;     /* Buttons & Highlights */
-    --bg-light: #f4f7f6;         /* Page Background */
+    --bg-light: #e9d7d7;         /* Page Background */
     --card-bg: #ffffff;          /* Card Background */
     --text-main: #333333;        /* General Text */
     --text-light: #000000;       /* Text on Dark Backgrounds */
@@ -72,6 +72,11 @@ body {
     color: var(--text-light);
     padding: 0 20px;
 }
+
+.hero-content img{
+    margin: 15px;
+}
+/*undercovered text hidden by hero image by introducing margin*/
 
 .hero-content h1 {
     font-size: clamp(2rem, 5vw, 3.5rem); /* Responsive font size */
