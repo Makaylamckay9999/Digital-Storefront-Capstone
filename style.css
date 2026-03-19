@@ -3,8 +3,8 @@
 :root {
     --primary-color:#d81e5b;    /* Navbar & Footer */
     --accent-color: #e6bdb9;     /* Buttons & Highlights */
-    --bg-light: #e9d7d7;         /* Page Background */
-    --card-bg: #ffffff;          /* Card Background */
+    --bg-light: #e2baba;         /* Page Background */
+    --card-bg: #ada9a9;          /* Card Background */
     --text-main: #000000;        /* General Text */
     --text-light: #ffffff;       /* Text on Dark Backgrounds */
     --container-width: 1100px;
@@ -61,9 +61,10 @@ body {
 
 /* 4. Hero Section */
 .hero {
-    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6));, 
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6));
     background-size:cover;
-    background-position: center;
+    object-fit: cover;
+    background-position:center;
     height: 60vh;
     display: flex;
     align-items: center;
@@ -71,6 +72,8 @@ body {
     text-align: center;
     color: var(--text-light);
     padding: 0 20px;
+    margin: 50px;
+    margin-bottom:50px;
 }
 
 .hero-content img{
@@ -98,6 +101,9 @@ body {
     transform: scale(1.05);
 }
 
+.feature-header {
+    text-align: center;
+}
 /* 5. Main Layout & Cards */
 .container {
     flex: 1;
@@ -107,11 +113,6 @@ body {
     padding: 40px 0;
     gap:50px;
 }
-
-.feature-image {
-    margin margin-left:;
-}
-
 
 
 .about-heading {
@@ -135,6 +136,8 @@ body {
     text-align: center;
     transition: translateY 0.3s ease;
     flex:grid;
+    columns: 4;
+    margin-bottom: 100px;
 }
 
 .card:hover {
@@ -174,31 +177,3 @@ body {
     transform: scale(1.1);
 }
 /* 7. MEDIA QUERIES (The Responsive Magic) */
-
-/* Tablet & Smaller Screens */
-@media (max-width: 992px) {
-    .card-grid {
-        grid-template-columns: repeat(2, 1fr); /* Drop to 2 columns */
-        margin-top: 20px; /* Remove overlap for cleaner mobile feel */
-    }
-}
-
-/* Mobile Phones */
-@media (max-width: 600px) {
-    .navbar {
-        flex-direction: column; /* Stack logo and links */
-        gap: 10px;
-    }
-
-    .nav-links li {
-        margin: 0 10px;
-    }
-
-    .card-grid {
-        grid-template-columns: 1fr; /* 1 column on small phones */
-    }
-
-    .hero {
-        height: 50vh;
-    }
-}
