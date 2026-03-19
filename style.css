@@ -6,7 +6,7 @@
     --bg-light: #e9d7d7;         /* Page Background */
     --card-bg: #ffffff;          /* Card Background */
     --text-main: #000000;        /* General Text */
-    --text-light: #000000;       /* Text on Dark Backgrounds */
+    --text-light: #ffffff;       /* Text on Dark Backgrounds */
     --container-width: 1100px;
 }
 
@@ -159,15 +159,11 @@ body {
     transition:transform 0.3s ease;
     display:flex;
     gap:50px;
-}
-
-
-
-product-card{
     margin:10px;
     padding:20px;
     font-size:30px;
     gap: 50px;
+    .
 }
 
 .product-card:hover {
