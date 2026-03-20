@@ -167,14 +167,13 @@ body {
     font-size:30px;
     gap: 50px;
     justify-content: center;
-    background-color: red;
+    background-color: rgb(255, 204, 204);
+    border: 50px;
 }
 
 .product-card:hover {
     transform: scale(1.05);
 }
 
-.product-card img:hover {
-    transform: scale(1.1);
-}
+
 /* 7. MEDIA QUERIES (The Responsive Magic) */
