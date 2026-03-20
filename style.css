@@ -20,8 +20,7 @@
 body {
     font-family: 'Segoe UI', "Mulish",sans-serif;
     line-height: 1.6;
-    background-color: red;
-    /* background-color: var(--bg-light); */
+    background-color: var(--bg-light);
     color: var(--text-main);
     display: flex;
     flex-direction: column;
@@ -154,6 +153,9 @@ body {
     margin-top: 50px;
 }
 
+.footerUl{ 
+    list-style-type: none;
+}
 .product-container {
     background:#fff;
     border-radius:12px;
