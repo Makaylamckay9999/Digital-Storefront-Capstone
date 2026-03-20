@@ -177,5 +177,23 @@ body {
     transform: scale(1.05);
 }
 
+.about-us-header{
+    text-align: center;
+    margin: 15px;
+}
+
+.our-story-image{
+    background-color: blueviolet;
+}
+
+.header-class {
+    text-align: center;
+}
+
+.container img{
+    display: block;       /* Make image a block element */
+  margin-left: auto;    /* Auto margins for centering */
+margin-right: auto;
+
 
 /* 7. MEDIA QUERIES (The Responsive Magic) */
