@@ -20,7 +20,8 @@
 body {
     font-family: 'Segoe UI', "Mulish",sans-serif;
     line-height: 1.6;
-    background-color: var(--bg-light);
+    background-color: red;
+    /* background-color: var(--bg-light); */
     color: var(--text-main);
     display: flex;
     flex-direction: column;
@@ -167,8 +168,7 @@ body {
     font-size:30px;
     gap: 50px;
     justify-content: center;
-    background-color: rgb(255, 204, 204);
-    border: 50px;
+    background-color: rgb(213, 75, 75);
 }
 
 .product-card:hover {
